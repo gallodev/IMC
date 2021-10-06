@@ -1,0 +1,49 @@
+.container {
+    width: 940px;
+    height: auto;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+h1 {
+    width: 100%;
+    color: #191919;
+    border-bottom: 1px solid #191919;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5px;
+}
+.container .formIMC {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .formIMC input {
+    height: 35px;
+    width: 220px;
+    text-indent: 10px;
+    margin: 10px 0;
+}
+
+.container .formIMC #btnCalculateIMC {
+    height: 40px;
+    width: 80px;
+    background: #000000;
+    font-weight: 500;
+    color: #FFF;
+    border: 0;
+    margin-top: 30px;   
+}
+.container .formIMC #btnCalculateIMC:hover{
+    background: #191919;
+    cursor: pointer;
+}
+
+.container .formIMC .pull-right {
+    display: flex;
+    justify-content: flex-end;
+}

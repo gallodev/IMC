@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./assets/css/index.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.svg" />
+    <title>Calcula IMC</title>
+</head>
+<body>
+    <div class="container">
+        <h1> - Calcula IMC</h1>
+        <form class="formIMC" onSubmit="handleCalculateIMC(event)">
+            <input type="text" id="inputWeight" name="inputWeight" placeholder="Digite o peso em kg"/>
+            <input type="text" id="inputHeight" name="inputHeight" placeholder="Digite a altura em cm" maxlength="4"/>
+            <span id="labelResult" style="display: none;"></span>
+            <div class="pull-right">
+                <button type="submit" id="btnCalculateIMC">Calcular</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script type="text/javascript" src="./assets/script/calculateIMC.js"></script>
+</html>
