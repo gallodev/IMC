@@ -1,0 +1,2 @@
+# IMC
+Simple IMC calculator
